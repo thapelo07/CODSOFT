@@ -1,0 +1,69 @@
+body{
+    background-color: burlywood;
+    max-width: 100vw;
+    font-size: 16x;
+    font-family: sans-serif;
+}
+
+.heading{
+    text-align: center;
+    
+}
+
+.card{
+    text-align: center;
+}
+
+
+.link{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    
+}
+
+.link a{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    margin: 0 25px;
+    transition: all ease .50s;
+}
+
+
+p{
+    font-weight: bold;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+
+}
+
+.socialIcons a:hover{
+    background-color: black;
+    transition: 0.5;
+}
+
+.footerBottom{
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
